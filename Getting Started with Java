@@ -1,8 +1,25 @@
+import java.util.Scanner;
 
-Size of long
-
-Primitive data type 'long' is having size _______ byte(s) in Java Programming.
+public class Solution {
 
 
-Answer
-8
+	public static void main(String[] args) {
+		
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        int m1 = sc.nextInt();
+        int m2 = sc.nextInt();
+        int m3 = sc.nextInt();
+        
+        // calculate average and print result
+        int avg = (m1 + m2 + m3) / 3;
+        System.out.println(name);
+        System.out.println(avg);
+		
+	}
+
+}
